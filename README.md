@@ -26,7 +26,9 @@ Here is a brief demo:
 -x**3*(x**2 + 6*x + 1)/(x - 1)**3
 >>> hardin.rectGF(x, 2, 3)
 -x**3*(2*x**4 + 13*x**3 + 48*x**2 + 16*x + 1)/(x - 1)**3
->>> hardin.rectPoly(n, 2, 1) # compare these with https://oeis.org/A253223
+
+# compare the below with conjectures at https://oeis.org/A253223
+>>> hardin.rectPoly(n, 2, 1) 
 (n - 2)*(n - 1)/2
 >>> hardin.rectPoly(n, 2, 2)
 (2*n - 5)**2
