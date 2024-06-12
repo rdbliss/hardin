@@ -1,13 +1,12 @@
 # hardin
 
-This repository contains a Python program that counts the number of
-rectangular Hardinian arrays. These are families of n x k arrays, with
-n >= k, that satisfy the rules laid out in the OEIS entries
-[A253026](https://oeis.org/A253026), [A253223](https://oeis.org/A253223),
-and analogous sequences.
+This repository contains a Python program that counts the number of rectangular
+Hardinian arrays. These are families of n x k arrays, with n >= k, that satisfy
+the rules laid out in the OEIS entries [A253026](https://oeis.org/A253026) and
+[A253223](https://oeis.org/A253223).
 
-The implementation relies on the [SymPy]() package, which you can
-probably install using `pip` or some variant, if you don't already have
+The implementation relies on the [SymPy](https://www.sympy.org/en/index.html)
+package, which you can probably install using `pip` if you don't already have
 it:
 
 ```
